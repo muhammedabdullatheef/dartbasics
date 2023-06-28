@@ -16,28 +16,28 @@ void main(){
 
   double g=a/b;
   print(g);
-
-
-
-  int c = b - a;
-  print("The difference between b and a is $c");
-
-  int d = -c;
-  print("The negation of difference between a and b is $c");
-
-  int e = a + b;
-  print("sum of a and b is $e");
-
-  int f = a * b;
-  print("The product of a and b is $f");
-
-  int g = a % b;
-  print("the reminder of a and b is $g");
-
-  double h = a / b;
-  print("The quotient of a and b is $h");
-
-  int i = a ~/ b;
-  print("The quotient of a and b is $i");
+  //
+  //
+  //
+  // int c = b - a;
+  // print("The difference between b and a is $c");
+  //
+  // int d = -c;
+  // print("The negation of difference between a and b is $c");
+  //
+  // int e = a + b;
+  // print("sum of a and b is $e");
+  //
+  // int f = a * b;
+  // print("The product of a and b is $f");
+  //
+  // int g = a % b;
+  // print("the reminder of a and b is $g");
+  //
+  // double h = a / b;
+  // print("The quotient of a and b is $h");
+  //
+  // int i = a ~/ b;
+  // print("The quotient of a and b is $i");
 
 }
