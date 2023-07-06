@@ -22,19 +22,9 @@ void main() {
   int f=int.parse(stdin.readLineSync()!);
 
   clc.multiple(e,f);
-  print("Enter the 1st number:");
-  int g=int.parse(stdin.readLineSync()!);
-  print("Enter the 2nd number:");
-  int h=int.parse(stdin.readLineSync()!);
   clc.divide(g,h);
   var sifc=scientific();
-  print("Enter the 1st number:");
-  int i=int.parse(stdin.readLineSync()!);
   sifc.factoriala(i);
-  print("Enter the 1st number:");
-  int j=int.parse(stdin.readLineSync()!);
-  print("Enter the 2nd number:");
-  int k=int.parse(stdin.readLineSync()!);
   sifc.add(3,3);
 
 }
