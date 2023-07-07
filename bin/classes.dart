@@ -5,25 +5,21 @@ import 'dart:io';
 import 'package:test/scaffolding.dart';
 
 void main() {
-  var clc=calculator();
   print("Enter the 1st number:");
   int a=int.parse(stdin.readLineSync()!);
   print("Enter the 2nd number:");
   int b=int.parse(stdin.readLineSync()!);
+  var clc=calculator();
       clc.add(a,b);
-  print("Enter the 1st number:");
-  int c=int.parse(stdin.readLineSync()!);
-  print("Enter the 2nd number:");
-  int d=int.parse(stdin.readLineSync()!);
-  clc.sub(c,d);
-  print("Enter the 1st number:");
-  int e=int.parse(stdin.readLineSync()!);
-  print("Enter the 2nd number:");
-  int f=int.parse(stdin.readLineSync()!);
+  clc.sub(a,b);
 
-  clc.multiple(e,f);
-  clc.divide(g,h);
+  clc.multiple(a,b);
+  clc.divide(a,b);
   var sifc=scientific();
+
+  print("Enter the 2nd number:");
+  int i=int.parse(stdin.readLineSync()!);
+
   sifc.factoriala(i);
   sifc.add(3,3);
 
