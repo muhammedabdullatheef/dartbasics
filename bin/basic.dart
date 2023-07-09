@@ -2,7 +2,9 @@ import 'dart:io';
 
 void main() {
   String i = "yes";
-  var l = [];
+  List<Map> l = [];
+
+
 
   while (i.toLowerCase() == "yes") {
     print("Enter your name:");
@@ -15,6 +17,8 @@ void main() {
     Map m = {"Name": "$a", "Phone No": "$b", "course": "$c"};
     l.add(m);
 
+
+
     for (int i = 0; i < l.length; i++) {
       print(l[i]);
     }
@@ -22,4 +26,8 @@ void main() {
     print("do you want to continue again....?");
     i = stdin.readLineSync()!;
   }
+  print(l);
+  l.forEach((m) { print(m["Name"]);
+  print(m["course"]);
+  });
 }
