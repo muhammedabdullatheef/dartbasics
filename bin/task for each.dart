@@ -7,7 +7,8 @@ void main(){
   String a="yes";
 
   List<Map> l=[];
-  // List<int> li=[];
+  List<Map> li=[];
+
 
   while(a.toLowerCase()=="yes"){
     print("Enter your name:");
@@ -28,25 +29,21 @@ void main(){
 
   l.forEach((element) {
 
-    var mark=element["mark"];
-    var e=int.parse(mark);
+    var mark=int.parse(element["mark"]);
 
-    if(e>=50){
+
+    if(mark>=50){
       print("mark is PASSED");
 
+li.add(element);
 
-    } else{
+
+    }else{
       print("mark is FAILED");
     }
-
-
-print(e);
-    // li.add();
-    // print(li);
-
-
-
   });
+
+  print("Pass list $li");
 
 
 
