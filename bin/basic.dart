@@ -6,6 +6,7 @@ void main() {
 
 
 
+
   while (i.toLowerCase() == "yes") {
     print("Enter your name:");
     String a = stdin.readLineSync().toString();
@@ -27,7 +28,12 @@ void main() {
     i = stdin.readLineSync()!;
   }
   print(l);
-  l.forEach((m) { print(m["Name"]);
-  print(m["course"]);
+  List li=[];
+  l.forEach((element) {
+    print("${element ["Name"]}");
+  print("${element["course"]}");
+li.add(element["Name"]);
+    li.add(element["course"]);
   });
+  print(li);
 }

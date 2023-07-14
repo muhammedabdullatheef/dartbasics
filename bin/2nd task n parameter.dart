@@ -9,21 +9,21 @@ void main() {
   var c = stdin.readLineSync()!;
   details(a, email_id: b, phone_no: c);
 }
-
+//named optional parameter
 void details(name,{email_id,phone_no}){
-  print("name is $name");
+  print("name is: $name");
 
 
   if(email_id==""){
     print("NO email_id:");
   }else{
-    print("email id is$email_id");
+    print("email id is: $email_id");
   }
 
   if(phone_no==""){
-    print("NO phone no");
+    print("NO phone no:");
   }else{
-    print("phone no is $phone_no");
+    print("phone no is: $phone_no");
   }
 }
 

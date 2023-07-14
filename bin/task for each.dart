@@ -35,7 +35,7 @@ void main(){
     if(mark>=50){
       print("mark is PASSED");
 
-li.add(element);
+      li.add(element);
 
 
     }else{
